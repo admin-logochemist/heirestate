@@ -65,7 +65,7 @@ const Property = () => (
                             <MuiTypography variant="subtitle1" gutterBottom>
                                 agent picture
                             </MuiTypography>
-                            <img src={image1} alt="Alpha.png" srcset="" />
+                            <img src={image1} alt="Alpha.png" srcset="" width={200} height={200}/>
                         </Grid>
                     </Grid>
                     <Grid container direction="column" spacing={1}>
@@ -88,7 +88,7 @@ const Property = () => (
                         </Grid>
                         <Grid item>
                             <MuiTypography variant="subtitle2" gutterBottom>
-                                Ghayas
+                                John
                             </MuiTypography>
                         </Grid>
                     </Grid>
