@@ -10,22 +10,245 @@
 .sizeop{
     height: 800px;
     width:100%;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.504);
+    z-index: 300;
+    
 }
 .aligz{
     text-align: center;
 }
+.imsilid{
+    position: absolute;
+    /* text-align: center; */
+    /* display: flex;
+    justify-content:center;
+    align-items:center; */
+    margin-left: 150px;
+    margin-top: 150px;
+    color: aliceblue;
+    font-size:50px;
+}
+.imsilidzz{
+    position: absolute;
+    /* text-align: center; */
+    /* display: flex;
+    justify-content:center;
+    align-items:center; */
+    margin-left: 150px;
+    margin-top: 250px;
+    color: aliceblue;
+    font-size:30px;
+}
+.btyzxd{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 400px;
+}
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+  .btn-7 {
+    background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,75,2,1) 100%);
+      line-height: 42px;
+      padding: 0;
+      border: none;
+    }
+ 
+    .btn-7:before,
+    .btn-7:after {
+      position: absolute;
+      content: "";
+      right: 0;
+      bottom: 0;
+      background: rgba(251,75,2,1);
+      box-shadow:
+       -7px -7px 20px 0px rgba(255,255,255,.9),
+       -4px -4px 5px 0px rgba(255,255,255,.9),
+       7px 7px 20px 0px rgba(0,0,0,.2),
+       4px 4px 5px 0px rgba(0,0,0,.3);
+      transition: all 0.3s ease;
+    }
+    .btn-7:before{
+       height: 0%;
+       width: 2px;
+    }
+    .btn-7:after {
+      width: 0%;
+      height: 2px;
+    }
+    .btn-7:hover{
+      color: rgba(251,75,2,1);
+      background: transparent;
+    }
+    .btn-7:hover:before {
+      height: 100%;
+    }
+    .btn-7:hover:after {
+      width: 100%;
+    }
+    .btn-7 span:before,
+    .btn-7 span:after {
+      position: absolute;
+      content: "";
+      left: 0;
+      top: 0;
+      background: rgba(251,75,2,1);
+      box-shadow:
+       -7px -7px 20px 0px rgba(255,255,255,.9),
+       -4px -4px 5px 0px rgba(255,255,255,.9),
+       7px 7px 20px 0px rgba(0,0,0,.2),
+       4px 4px 5px 0px rgba(0,0,0,.3);
+      transition: all 0.3s ease;
+    }
+    .btn-7 span:before {
+      width: 2px;
+      height: 0%;
+    }
+    .btn-7 span:after {
+      height: 2px;
+      width: 0%;
+    }
+    .btn-7 span:hover:before {
+      height: 100%;
+    }
+    .btn-7 span:hover:after {
+      width: 100%;
+    }
 
 /* Services Section
 --------------------------------*/
+.hopoo{
+    text-align: center;
+    margin-top: 200px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/984/892/original/banner-design-geometric-hexagon-colorful-overlapping-with-background-free-vector.jpg);
+    padding: 100px;
+}
 .marginz{
-    margin-top: 300px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
     
 }
 .recfio{
-    border: 2px solid black;
+    border: 2px dashed black;
     padding: 50px;
     border-radius: 20px;
     text-align: center;
-    margin:5px;
+    /* margin:15px; */
+    transition: transform .2s;
+}
+.recfio:hover{
+    transform: scale(1.1);
+    background-color: rgba(255, 255, 0, 0.274);
 }
 
+.hjuio{
+    /* margin-bottom: 30px; */
+    padding: 30px;
+    text-align: center;
+    /* margin-top: 20px; */
+    background-color: beige;
+}
+.hjuios{
+    /* margin-bottom: 30px; */
+    padding: 30px;
+    text-align: center;
+    /* margin-top: 20px; */
+}
+.sitop{
+    padding: 30px;
+    background-color: azure;
+}
+.foreciio{
+    text-align: center;
+    padding: 20px;
+}
+.hjui{
+    height: 60px;
+    width:100%;
+    margin-bottom:10px;
+}
+.cardz{
+    transition: transform .2s;
+}
+.cardz:hover{
+    transform: scale(1.1);
+}
+.fjuity{
+    background-image: url(https://images.pexels.com/photos/302769/pexels-photo-302769.jpeg);
+    height: 600px;
+    /* position: fixed; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    display: flex;
+    /* align-items: center; */
+    justify-content:center;
+    
+}
+.ghyui{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size: 50px;
+    font-weight: 600;
+    transform: translate(-50%, -50%);
+    animation: shake 0.5s infinite;
+    color: rgb(238, 238, 238);
+    
+}
+@keyframes shake {
+    0% {
+      transform: translate(1px, -2px) rotate(-1deg);
+    }
+    10% {
+      transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    20% {
+      transform: translate(1px, 2px) rotate(0deg);
+    }
+    30% {
+      transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+      transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+      transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    60% {
+      transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+      transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+      transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+      transform: translate(-3px, 0px) rotate(1deg);
+    }
+    100% {
+      transform: translate(1px, 1px) rotate(0deg);
+    }
+  }
+  .ziop{
+    transition: transform .2s;
+  }
+  .ziop:hover{
+    transform: scale(1.1);
+  }
+  
