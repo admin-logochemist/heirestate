@@ -1,0 +1,83 @@
+
+.jhfjhds{
+    background-color: black;
+    color:white;
+    font-weight:700;
+    text-align: center;
+    padding: 20px;
+}
+.ghyau{
+    color: grey;
+    font-size: 40px;
+    font-weight: 200;
+}
+.jsfdj{
+    color :black;
+    font-weight: 500;
+}
+.dhja{
+    border-bottom: solid 2px grey;
+}
+.testing{
+    /* border: solid 2px rgb(0, 0, 0); */
+    padding: 10px;
+    box-shadow: 12px 12px 2px 1px rgba(115, 115, 133, 0.2);
+    text-align: center;
+    margin-top: 10px;
+    transition: transform .2s;
+}
+.testing:hover{
+    transform: scale(1.1); 
+}
+.fsgik{
+    border-left: solid 2px grey;
+    /* border-left-width:20%; */
+    padding: 30px;
+    margin-top: 10px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.madfkdf{
+  margin-top: 20px;
+}
+.ehkop{
+   height: 70px;
+   width: 70%;
+   
+}
+.fghsipo{
+    font-size: 14px;
+    font-weight: 600;
+}
+.gfhdjs{
+    background-image: url(https://argonaut.au.reastatic.net/resi-property/prod/homepage-web/web_winter_sml-53f6072c7104ff7bf5a4.jpg);
+    background-repeat: no-repeat;
+    height:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; 
+}
+.tejsdnf{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 500;
+    z-index: 1000;
+}
+.dasjf{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.ufsjd{
+    padding: 30px;
+    /* font-size: 16px; */
+    font-weight: 400;
+}
+.sdlkmmd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

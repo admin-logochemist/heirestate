@@ -1,7 +1,7 @@
 // material-ui
 import { Typography } from '@mui/material';
 import Header from '../webincludes/Header';
-import Footer from '../webincludes/Footer'
+import Footer from '../webincludes/Footer';
 import styles from './stylez.css';
 
 import { IconBrandFacebook, IconBrandSkype, IconBrandInstagram, IconBrandLinkedin, IconAnchorOff, IconCloudComputing, IconArticle, IconBuildingCommunity } from '@tabler/icons';
@@ -100,7 +100,7 @@ const SamplePage = () => (
             <div className='row marginz'>
                 <div className='col-md-2 col-lg-2 recfio'>
                     <IconAnchorOff className='hjui' />
-                    <h3>Avability</h3>
+                    <h3>Availability</h3>
                     <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam nesciunt doloribus saepe sunt id quisquam fugiat maiores maxime in delectus sit, praesentium veniam iste fugit aperiam numquam asperiores dolor accusamus!</p>
                 </div>
                 <div className='col-md-2 col-lg-2 recfio'>
@@ -136,7 +136,7 @@ const SamplePage = () => (
             <div className='row marginz'>
                 {property.map((items, index) => {
                     return (
-                        <Card className='cardz' style={{ width: '36rem' }}>
+                        <Card key={index} className='cardz' style={{ width: '36rem' }}>
                             <Card.Img variant="top" src={items.image} />
                             <Card.Body>
                                 <Card.Title>{items.title}</Card.Title>
