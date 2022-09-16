@@ -31,7 +31,7 @@ const Header=()=> {
       <a><Link to="product">Products</Link></a>
       <a>Services</a>
       <a>Clients</a>
-      <a>Contact</a>
+      <a><Link to="contact">Contact</Link></a>
       </div>
       </div>
    ) : 
