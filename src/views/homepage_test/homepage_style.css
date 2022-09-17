@@ -1,0 +1,480 @@
+.main_banner{
+    width: 100%;
+    height: 600px;
+    background-image: url(../../assets/images/banner/banner_test.webp);
+    background-size: cover;
+    position: relative;
+    z-index: 98;
+}
+.Header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 99;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.main_banner .main_banner_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 600px;
+    width: 100%;
+    background-color: rgb(0, 0, 0,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    font-family: 'Montserrat', sans-serif;
+}
+.main_banner .main_banner_overlay h1{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-weight: 400;
+    font-size: 3rem;
+}
+.main_banner .main_banner_overlay h6{
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 20px;
+}
+.sales_card{
+    position: relative;
+}
+.sales_card_image{
+    height: 290px;
+    position: relative;
+}
+.sales_card .sales_card_image img{
+    height: 100%;
+    width: 100%;
+}
+
+.sales_card_detail h4{
+    text-transform: uppercase;
+    font-size: 21px;
+    line-height: 1.5;
+    letter-spacing: 6px;
+    font-weight: 300;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+.sales_card_detail p{
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-weight: 800;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 6px;
+}
+.sales_card_detail h5{
+    text-transform: uppercase;
+    line-height: 1.5;
+    color: black;
+    letter-spacing: 4px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 6px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 1.4;
+    margin-top: 13px;
+}
+.sales_card_image span{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: black;
+    color:white;
+    padding-inline: 40px;
+    font-size: 13px;
+    padding-block: 4px;
+    font-family: 'Montserrat', sans-serif;
+}
+.sales_card:hover .sales_card_hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s all;
+}
+.sales_card_hover{
+    position: absolute;
+    top: 0px;
+    display: none;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    transition: 1s ease-in-out;
+    z-index: 2;
+        background: rgba(255, 255, 255, 0);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.4px);
+    -webkit-backdrop-filter: blur(2.4px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.sales_card_hover button{
+    padding-block: 15px;
+    padding-inline: 60px;
+    border: 2px solid rgb(57, 57, 57);
+    background-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    transition: 0.3s all;
+}
+.sales_card_hover button:hover{
+    padding-block: 15px;
+    padding-inline: 60px;
+    border: 2px solid black;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: white;
+}
+.pagination .left_arrow{
+    padding-block: 10px;
+    padding-inline: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 20px;
+    transition: 0.3s all;
+
+}
+.pagination .right_arrow{
+    padding-block: 10px;
+    padding-inline: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 20px;
+    transition: 0.3s all;
+}
+
+.pagination .right_arrow:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.pagination .left_arrow_active{
+    background-color: black;
+    color: white;
+    padding-block: 10px;
+    padding-inline: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 20px;
+    transition: 0.3s all;
+    cursor: pointer;
+
+}
+.pagination .left_arrow i{
+    font-weight: 800;
+    font-size: 30px;
+}
+.pagination .right_arrow i{
+    font-weight: 800;
+    font-size: 30px;
+}
+.main_banner_2{
+    width: 100%;
+    height: 600px;
+    background-color: red;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../assets/images/banner/fb49ysfb2xq4gvihnz1a.webp);
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.main_banner_2 .main_banner_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    font-family: 'Montserrat', sans-serif;
+}
+.main_banner_2 .main_banner_overlay h2{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 9px;
+    font-weight: 400;
+    position: relative;
+}
+.main_banner_2 .main_banner_overlay h2::before{
+    content:"";
+    background-image: url(../../assets/images/banner/brandl.webp);
+    background-repeat: no-repeat;
+    display: block;
+    content: "\a";
+    white-space: pre;
+    height: 180px;
+    width: 150px;
+    margin: auto;
+    padding-right: 180px;
+    -webkit-background-size: 180px;
+    background-size: 180px;
+}
+.main_banner_2 h6{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    position: relative;
+} 
+.main_banner_overlay .contant_Form input{
+    background-color: transparent;
+    border: 1px solid white;
+    outline: none;
+    padding-block: 20px;
+    padding-inline: 20px;
+    width: 240px;
+    margin-inline: 10px;
+    color: white;
+    font-weight: 400;
+}
+.main_banner_overlay .contant_Form input::placeholder{
+    color: rgb(98, 98, 98);
+    font-weight: 600;
+}   
+.main_banner_overlay .contant_Form button{
+    background-color: transparent;
+    border: 1px solid white;
+    outline: none;
+    padding-block: 20px;
+    padding-inline: 40px;
+    margin-inline: 10px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 2px;
+    transition: 0.4s all;
+}
+.main_banner_overlay .contant_Form button:hover{
+    border: 1px solid white;
+    outline: none;
+    padding-block: 20px;
+    background-color: white;
+    padding-inline: 40px;
+    margin-inline: 10px;
+    color: black;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.Main_Footer h3{
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-size: 29px;
+}
+.Main_Footer h4{
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-size: 23px;
+    line-height: 33px;
+}
+.Footer_contacr_email_content h5{
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 0px;
+    color: black;
+}
+.Footer_contacr_email i{
+    font-size: 30px !important;
+}
+.Footer_contacr_email_content h5{
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 0px;
+    color: black;
+}
+.Footer_contacr_email_content_detail{
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 0px;
+    color: rgb(69, 69, 69) !important;
+}
+.email_input{
+    border-bottom:1px solid black ;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    width: 100%;
+    padding-block: 5px;
+    padding-inline: 0px;
+}
+.mail_box button{
+    border: 1px solid black;
+    background-color: transparent;
+    padding-inline: 30px;
+    padding-block: 10px;
+    margin-top: 15px;
+    transition: 0.3s all;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.mail_box button:hover{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    padding-inline: 30px;
+    padding-block: 10px;
+    margin-top: 15px;
+}
+.second_brand_logo{
+    width: 140px;
+}
+.secondary_nav h5{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.secondary_nav p{
+    color: rgb(97, 97, 97);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    margin-top: 13px;
+}
+.Footerbranding_logo img{
+    height: 60px;
+    width: 80px;
+}
+.third-nav p{
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+}
+.social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-inline: 10px;
+    background-color: transparent;
+    transition: 0.4s all;
+}
+.social-icons:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background-color: black;
+    color: white;
+    width: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-inline: 10px;
+}
+.main_logo{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+}
+.navigation_side span{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+    margin-inline: 10px;
+    height: 100%;
+    cursor: pointer;
+}
+.navigation_side i{
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+    margin-inline: 5px;
+    cursor: pointer;
+}
+.big-Navigation{
+    height: 0px;
+    background-color: black;
+    width: 1000px !important;
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    opacity: 0;
+    z-index: 10;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-block: 0px;
+}
+.main-big-nav-opner:hover .big-Navigation{
+    height: 400px;
+    background-color: black;
+    width: 1000px !important;
+    position: absolute;
+    opacity: 1;
+    top: 50px;
+    z-index: 100;
+    transition: 0.3s all;
+}
+.big-Navigation::before{
+    content: '';
+    position: absolute;
+    right: 280px;
+    top: -10px;
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    transform: rotate(225deg);
+}
+.border_left_main_nav{
+    border-right: 1px solid white !important;
+}
+.sidebar_button{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    .navigation_side {
+      display: none !important;
+    }
+    .sidebar_button{
+        display: block;
+        background-color: transparent;
+        border: none;
+        font-size: 20px;
+    }
+    .contant_Form{
+        flex-direction: column;
+    }
+    .contant_Form input{
+        width: 100%;
+        margin-block: 5px;
+    }
+    .main_banner .main_banner_overlay h1 {
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 6px;
+        font-weight: 400;
+        font-size: 2rem;
+    }
+    #subject-body .subject{
+        padding: 0px !important;
+    }
+}
