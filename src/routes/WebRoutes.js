@@ -9,6 +9,7 @@ const AuthLogin3 = Loadable(lazy(() => import('views/pages/authentication/authen
 const AuthRegister3 = Loadable(lazy(() => import('views/pages/authentication/authentication3/Register3')));
 const Hometest = Loadable(lazy(() => import('views/homepage_test/index')));
 const Contact = Loadable(lazy(() => import('views/utilities/Contact')));
+const Product = Loadable(lazy(() => import('views/productdetail/index')));
 
 
 // ==============================|| AUTHENTICATION ROUTING ||============================== //

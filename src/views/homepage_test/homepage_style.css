@@ -6,17 +6,7 @@
     position: relative;
     z-index: 98;
 }
-.Header{
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    z-index: 99;
-    background: rgba(255, 255, 255, 0.2);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-}
+
 .main_banner .main_banner_overlay{
     position: absolute;
     top: 0;
@@ -61,7 +51,6 @@
     letter-spacing: 6px;
     font-weight: 300;
     color: black;
-    font-family: 'Montserrat', sans-serif;
 }
 .sales_card_detail p{
     text-transform: uppercase;
@@ -370,7 +359,6 @@
     justify-content: center;
     height: 40px;
     width: 40px;
-    border: 1px solid black;
     border-radius: 50%;
     margin-inline: 10px;
     background-color: transparent;
@@ -381,10 +369,8 @@
     align-items: center;
     justify-content: center;
     height: 40px;
-    background-color: black;
     color: white;
     width: 40px;
-    border: 1px solid black;
     border-radius: 50%;
     margin-inline: 10px;
 }

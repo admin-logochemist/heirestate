@@ -31,38 +31,19 @@ const Header=()=> {
   </Drawer>
     <div className="container">
         <div className="row py-4">
-            <div className="col-lg-6 col-12 d-flex align-items-center justify-content-between">
+            <div className="col-lg-3 col-12 d-flex align-items-center justify-content-start">
                 <span  className="main_logo">LOGO</span>
                 <button className='sidebar_button' onClick={showDrawer}><i class="fa fa-bars" aria-hidden="true"></i></button>
             </div>
-            <div className="col-lg-6 col-12 d-flex align-items-center justify-content-end navigation_side">
-                <span className="main-big-nav-opner">Shop<i class="fa fa-angle-down" aria-hidden="true"></i>
-                <div className="big-Navigation w-100 d-flex py-0">
-                    <div className="w-50 px-4 py-4 d-flex flex-column border_left_main_nav">
-                        <span className="main_logo text-light inner_nav">Kids Fashion</span>
-                        <span className="main_logo text-light inner_nav">Mens Fashion</span>
-                        <span className="main_logo text-light inner_nav">Women Fashion</span>
-                        <span className="main_logo text-light inner_nav">Kitchen</span>
-                        <span className="main_logo text-light inner_nav">Laptops</span>
-                        <span className="main_logo text-light inner_nav">Mobile</span>
-                        <span className="main_logo text-light inner_nav">Gaming</span>
-                        <span className="main_logo text-light inner_nav">Tablets</span>
-                    </div>
-                    <div className="w-50 px-4 py-4 d-flex flex-column">
-                    <span className="main_logo text-light inner_nav">Kids Fashion</span>
-                        <span className="main_logo text-light inner_nav">Mens Fashion</span>
-                        <span className="main_logo text-light inner_nav">Women Fashion</span>
-                        <span className="main_logo text-light inner_nav">Kitchen</span>
-                        <span className="main_logo text-light inner_nav">Laptops</span>
-                        <span className="main_logo text-light inner_nav">Mobile</span>
-                        <span className="main_logo text-light inner_nav">Gaming</span>
-                        <span className="main_logo text-light inner_nav">Tablets</span>
-                    </div>
-                </div>
-                </span>
-                <span >Contact</span>
-                <span>About</span>
-                <span>Portfolio</span>
+            <div className="col-lg-6 col-12 d-flex align-items-center justify-content-center">
+                <Link to="/Products">For Sale</Link>
+                <a href="/">For Rent</a>
+                <a href="/">New Property</a>
+                <Link to="/Contact">Contact</Link>
+                <a href="/">Blog</a>
+            </div>
+            <div className="col-lg-3 col-12 d-flex align-items-center justify-content-end">
+                <button>Login/Register</button>
             </div>
         </div>
     </div>

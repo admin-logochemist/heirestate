@@ -1,9 +1,9 @@
 // import React from 'react'
 import Header from '../webincludes/Header';
-import styles from './product.css'
+import Footer from '../webincludes/Footer';
+import styles from './productdetail.css'
 import ImageGallery from 'react-image-gallery';
 import "react-image-gallery/styles/css/image-gallery.css";
-import Footer from '../webincludes/Footer';
 
 import { IconBrandFacebook, IconBrandSkype, IconBrandInstagram, IconBrandLinkedin, IconAnchorOff, IconCloudComputing, IconArticle, IconBuildingCommunity } from '@tabler/icons';
 
