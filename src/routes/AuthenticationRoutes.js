@@ -21,15 +21,6 @@ const AuthenticationRoutes = {
             path: '/',
             element: <SamplePage />
         },
-        // {
-        //     path: 'SamplePage',
-        //     children: [
-        //         {
-        //             path: 'default',
-        //             element: <SamplePage />
-        //         }
-        //     ]
-        // },
         {
             path: 'Product',
             element: <Product />
