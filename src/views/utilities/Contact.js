@@ -12,22 +12,22 @@ import { gridSpacing } from 'store/constant';
 function Contact() {
     return (
         <div>
-    <MainCard title="Contact">
-    <Grid container spacing={gridSpacing}>
-    <Grid item xs={12} sm={6}>
-                <SubCard title="Photos">
-                    <Grid container direction="column" spacing={1}>
-                        <Grid item>
-                            <MuiTypography variant="subtitle1" gutterBottom>
-                                Working on image Carousels
-                            </MuiTypography>
-                        </Grid>
+            <MainCard title="Contact">
+                <Grid container spacing={gridSpacing}>
+                    <Grid item xs={12} sm={6}>
+                        <SubCard title="Photos">
+                            <Grid container direction="column" spacing={1}>
+                                <Grid item>
+                                    <MuiTypography variant="subtitle1" gutterBottom>
+                                        Working on image Carousels
+                                    </MuiTypography>
+                                </Grid>
+                            </Grid>
+                        </SubCard>
                     </Grid>
-                </SubCard>
-            </Grid>
-    </Grid>
-    </MainCard>
-    </div>
+                </Grid>
+            </MainCard>
+        </div>
     )
 }
 

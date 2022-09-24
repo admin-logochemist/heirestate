@@ -8,6 +8,7 @@ import Loadable from 'ui-component/Loadable';
 const DashboardDefault = Loadable(lazy(() => import('views/dashboard/Default')));
 
 // utilities routing
+const contact = Loadable(lazy(() => import('views/utilities/Property')));
 const Property = Loadable(lazy(() => import('views/utilities/Property')));
 const Showing = Loadable(lazy(() => import('views/utilities/Showing')));
 const Offers = Loadable(lazy(() => import('views/utilities/Offers')));

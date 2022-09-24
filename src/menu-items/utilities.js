@@ -10,7 +10,6 @@ const icons = {
     IconCloudComputing,
     IconArticle
 };
-
 // ==============================|| UTILITIES MENU ITEMS ||============================== //
 
 const utilities = {
