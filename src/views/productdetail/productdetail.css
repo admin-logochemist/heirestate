@@ -1,83 +1,174 @@
+:root{
+    --font-family:'Montserrat', sans-serif;
+    --primary-color:black;
+    --secondary-color:#97D2EC;
+}
+.Product_detail_gallery{
+    height: 540px;
+    width: 100%;
+}
+.Product_detail_gallery .Product_detail_gallery_right{
+    height: 540px;
+    width: 30%;
+}
+.Product_detail_gallery .Product_detail_gallery_left{
+    height: 540px;
+    width: 70%;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background-color: #97D2EC;
+    margin-block: 5px;
+    margin-right: 0px;
+    overflow: hidden;
+}
+.Product_detail_gallery .Product_detail_gallery_left_grid_1{
+    height: 176px;
+    width: 100%;
+    border-top-right-radius: 40px;
+    background-color: #97D2EC;
+    margin: 5px;
+    overflow: hidden;
 
-.jhfjhds{
-    background-color: black;
-    color:white;
-    font-weight:700;
-    text-align: center;
-    padding: 20px;
 }
-.ghyau{
-    color: grey;
-    font-size: 40px;
-    font-weight: 200;
+.Product_detail_gallery .Product_detail_gallery_left_grid_2{
+    height: 178px;
+    width: 100%;
+    border-radius: 0px;
+    background-color: #97D2EC;
+    margin: 5px;
+    overflow: hidden;
+
 }
-.jsfdj{
-    color :black;
+.Product_detail_gallery .Product_detail_gallery_left_grid_3{
+    height: 176px;
+    width: 100%;
+    border-bottom-right-radius: 40px;
+    background-color: #97D2EC;
+    margin: 5px;
+    overflow: hidden;
+    position: relative;
+}
+.Product_detail_gallery_left_grid_3_hover{
+    position: absolute;
+    height: 176px;
+    width: 100%;
+   /* From https://css.glass */
+    background: rgba(162, 165, 172, 0.57);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11px);
+    -webkit-backdrop-filter: blur(11px);
+    top: 0px;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
     font-weight: 500;
+    font-size: 1rem;
 }
-.dhja{
-    border-bottom: solid 2px grey;
+.top_value_tag{
+    padding-block: 5px;
+    padding-inline: 10px;
+    color: rgb(68, 0, 128);
+    font-size: 12px;
+    font-weight: 500;
+    background-color:rgb(215, 169, 255) ;
+    border-radius: 40px;
 }
-.testing{
-    /* border: solid 2px rgb(0, 0, 0); */
-    padding: 10px;
-    box-shadow: 12px 12px 2px 1px rgba(115, 115, 133, 0.2);
-    text-align: center;
-    margin-top: 10px;
-    transition: transform .2s;
+.new_tag{
+    padding-block: 5px;
+    padding-inline: 10px;
+    color: rgb(2, 140, 101);
+    font-size: 12px;
+    font-weight: 500;
+    background-color: rgb(195, 255, 238);
+    border-radius: 40px;
+    margin-left: 5px;
 }
-.testing:hover{
-    transform: scale(1.1); 
+.Product_detail_detail h3{
+    font-weight: 600;
+    margin: 0px;
 }
-.fsgik{
-    border-left: solid 2px grey;
-    /* border-left-width:20%; */
-    padding: 30px;
-    margin-top: 10px;
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
+.Product_detail_detail h6{
+    font-weight: 500;
+    margin: 0px;
+    margin-top: 8px;
+    color: rgb(148, 148, 148);
 }
-.madfkdf{
-  margin-top: 20px;
+.property_feature img{
+    margin-right: 5px;
 }
-.ehkop{
-   height: 70px;
-   width: 70%;
-   
+.property_feature span{
+    background-color: white;
+    font-weight: 600;
+    color: black;
+    font-size: 13px;
+    padding-block: 5px;
+    padding-inline: 10px;
+    border-radius: 40px;
+    margin-inline: 5px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.fghsipo{
-    font-size: 14px;
+.property_feature span:nth-child(1){
+    background-color: white;
+    font-weight: 600;
+    color: black;
+    font-size: 13px;
+    padding-block: 5px;
+    padding-inline: 10px;
+    border-radius: 40px;
+    margin-left: 0px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.extra_feature{
+    border: 1px solid rgb(210, 210, 210);
+    padding: 20px;
+    border-radius: 20px;
+}
+.extra_feature p{
+    color: var(--secondary-color);
     font-weight: 600;
 }
-.gfhdjs{
-    background-image: url(https://argonaut.au.reastatic.net/resi-property/prod/homepage-web/web_winter_sml-53f6072c7104ff7bf5a4.jpg);
-    background-repeat: no-repeat;
-    height:300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center; 
+.extra_feature h3{      
+    color: black;
+    font-weight: 600;
 }
-.tejsdnf{
-    color: rgb(255, 255, 255);
-    font-size: 30px;
+.extra_feature_check p{ 
+    color: rgb(148, 148, 148);
+    margin: 0px;
+}
+.dark-hall-Price{
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.product_detail_book_now{
+    width: 100%;
+    background-color: var(--secondary-color);
+    color:white;
     font-weight: 500;
-    z-index: 1000;
+    border: none;
+    outline: none;
+    padding-block: 10px;
+    border-radius: 40px;
+    transition: 0.4s all;
 }
-.dasjf{
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-.ufsjd{
-    padding: 30px;
-    /* font-size: 16px; */
-    font-weight: 400;
-}
-.sdlkmmd{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+
+.product_detail_book_now:hover{
+    width: 100%;
+    background-color: white;
+    color:var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    font-weight: 500;
+    outline: none;
+    padding-block: 10px;
+    border-radius: 40px;
 }

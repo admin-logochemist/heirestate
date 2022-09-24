@@ -1,11 +1,9 @@
 import { useSelector } from 'react-redux';
-
 import { ThemeProvider } from '@mui/material/styles';
 import { CssBaseline, StyledEngineProvider } from '@mui/material';
 import 'antd/dist/antd.css';
-// routing
+import "../src/views/sample-page/stylez.css"
 import Routes from 'routes';
-
 // defaultTheme
 import themes from 'themes';
 
